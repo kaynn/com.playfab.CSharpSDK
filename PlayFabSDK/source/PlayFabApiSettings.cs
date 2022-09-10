@@ -21,6 +21,8 @@ namespace PlayFab
         /// <summary> You must set this value for PlayFabSdk to work properly (Found in the Game Manager for your title, at the PlayFab Website) </summary>
         public string TitleId;
 
+        public string HttpPluginInstanceName = "";
+
 
         public virtual string GetFullUrl(string apiCall)
         {
