@@ -3,7 +3,11 @@
 # Intermediate files
 .vs/
 bin/
+.bin/
+
 obj/
+.obj/
+
 
 # Deleted test projects
 PlayFabClientSDK/
